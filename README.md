@@ -2,27 +2,26 @@
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
-## What's next? How do I make an app with this?
-
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
-
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
-
+### Used Technologies 
 - [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
 - [Prisma](https://prisma.io)
+- [Planetscale](https://planetscale.com/)
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
 
-## Learn More
+## Learn From
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+[T3 Stack](https://create.t3.gg/)
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+[Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — T3 adviced tutorials
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+[YouTube](https://www.youtube.com/watch?v=d2yNsZd5PMs&ab_channel=Theo-t3%E2%80%A4gg) - Next.js Theo
 
-## How do I deploy this?
+[YouTube](https://www.youtube.com/watch?v=qCLV0Iaq9zU&list=PLKr0yWGpgZ9Uvnqgch0-aFyWPOq0gBVbC&index=20&ab_channel=JackHerrington) - tRPC Jack H.
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+[YouTube](https://www.youtube.com/watch?v=wm5gMKuwSYk&list=PLKr0yWGpgZ9Uvnqgch0-aFyWPOq0gBVbC&ab_channel=JavaScriptMastery) - My Additional video collection
+
+## Deployed on Vercel 
+
+https://emotwit-kw5paz7l1-snegyeliczky.vercel.app/
+
