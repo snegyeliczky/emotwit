@@ -4,9 +4,11 @@ import { api } from "~/utils/api";
 import { SignInButton, useAuth, UserButton } from "@clerk/nextjs";
 
 export default function Home() {
-  const hello = api.post.hello.useQuery({ text: "from tRPC" });
   const user = useAuth();
-  console.log(user);
+  const hello = api.post.hello.useQuery({ text: "from tRPC" });
+  const tRPCRes = hello?.data?.greeting;
+  const quickStyle = { color: "white" };
+
   return (
     <>
       <Head>
@@ -18,8 +20,9 @@ export default function Home() {
         {user.isSignedIn ? (
           <UserButton afterSignOutUrl="/" />
         ) : (
-          <SignInButton afterSignInUrl={"/"} style={{ color: "white" }} />
+          <SignInButton afterSignInUrl={"/"} style={quickStyle} />
         )}
+        {user.isSignedIn && <p style={quickStyle}> {tRPCRes} </p>}
       </main>
     </>
   );
