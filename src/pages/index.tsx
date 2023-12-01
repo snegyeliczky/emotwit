@@ -20,7 +20,7 @@ export default function Home() {
         {user.isSignedIn ? (
           <UserButton afterSignOutUrl="/" />
         ) : (
-          <SignInButton afterSignInUrl={"/"} style={quickStyle} />
+          <SignInButton afterSignInUrl={"/"} />
         )}
         {user.isSignedIn && <p style={quickStyle}> {tRPCRes} </p>}
       </main>
